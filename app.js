@@ -3,15 +3,14 @@ import '@uirouter/angularjs';
 
 // Import your app stylesheets
 import './style.css';
+import './fonts/glyphicons.css';
+import './fonts/glyphicons20.css';
 
 // Import your app functionality
-import './home'
+import './home';
 
 // Create and bootstrap application
-const requires = [
-  'ui.router',
-  'home'
-];
+const requires = ['ui.router', 'home'];
 
 window.app = angular.module('app', requires);
 
