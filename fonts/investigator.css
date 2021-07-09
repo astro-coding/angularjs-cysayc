@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'investigator';
+  src: url('../font/investigator.eot?68897444');
+  src: url('../font/investigator.eot?68897444#iefix') format('embedded-opentype'),
+       url('../font/investigator.woff2?68897444') format('woff2'),
+       url('../font/investigator.woff?68897444') format('woff'),
+       url('../font/investigator.ttf?68897444') format('truetype'),
+       url('../font/investigator.svg?68897444#investigator') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'investigator';
+    src: url('../font/investigator.svg?68897444#investigator') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "investigator";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-002-telephone:before { content: '\e800'; } /* '' */
+.icon-003-print:before { content: '\e801'; } /* '' */
+.icon-004-camera:before { content: '\e802'; } /* '' */
+.icon-005-bullet:before { content: '\e803'; } /* '' */
+.icon-007-dna:before { content: '\e805'; } /* '' */
+.icon-009-strongbox:before { content: '\e807'; } /* '' */
+.icon-010-police-line:before { content: '\e808'; } /* '' */
+.icon-011-justice:before { content: '\e809'; } /* '' */
+.icon-013-money:before { content: '\e80b'; } /* '' */
+.icon-016-document:before { content: '\e80e'; } /* '' */
+.icon-017-notebook:before { content: '\e80f'; } /* '' */
+.icon-018-police-badge:before { content: '\e810'; } /* '' */
+.icon-019-microscope:before { content: '\e811'; } /* '' */
+.icon-020-police-hat:before { content: '\e812'; } /* '' */
+.icon-021-crime:before { content: '\e813'; } /* '' */
+.icon-028-padlock:before { content: '\e816'; } /* '' */
+.icon-024-cotton-swab-1:before { content: '\e817'; } /* '' */
+.icon-030-folder:before { content: '\e81c'; } /* '' */
+.icon-031-magnifying-glass:before { content: '\e81d'; } /* '' */
+.icon-032-handcuffs:before { content: '\e81e'; } /* '' */
+.icon-034-poison:before { content: '\e820'; } /* '' */
+.icon-036-skull:before { content: '\e822'; } /* '' */
+.icon-037-flashlight:before { content: '\e823'; } /* '' */
+.icon-039-eye:before { content: '\e825'; } /* '' */
+.icon-040-gun:before { content: '\e826'; } /* '' */
+.icon-041-target:before { content: '\e827'; } /* '' */
+.icon-042-razor:before { content: '\e828'; } /* '' */
+.icon-001-tape-recorder:before { content: '\e82d'; } /* '' */
+.icon-050-key:before { content: '\e82e'; } /* '' */
+.icon-047-fingerprint:before { content: '\e82f'; } /* '' */
+.icon-049-walkie-talkie:before { content: '\e830'; } /* '' */
+.icon-048-police-identification:before { content: '\e831'; } /* '' */
+.icon-001-loupe:before { content: '\e832'; } /* '' */
+.icon-002-auction:before { content: '\e833'; } /* '' */
+.icon-003-eye:before { content: '\e834'; } /* '' */
+.icon-004-dna:before { content: '\e835'; } /* '' */
+.icon-005-jail:before { content: '\e836'; } /* '' */
+.icon-006-flashlight:before { content: '\e837'; } /* '' */
+.icon-007-siren:before { content: '\e838'; } /* '' */
+.icon-008-lock:before { content: '\e839'; } /* '' */
+.icon-009-knife:before { content: '\e83a'; } /* '' */
+.icon-010-handcuff:before { content: '\e83b'; } /* '' */
+.icon-011-sheriff:before { content: '\e83c'; } /* '' */
+.icon-012-bible:before { content: '\e83d'; } /* '' */
+.icon-013-document:before { content: '\e83e'; } /* '' */
+.icon-019-id-card:before { content: '\e83f'; } /* '' */
+.icon-014-fingerprint:before { content: '\e840'; } /* '' */
+.icon-015-law-book:before { content: '\e841'; } /* '' */
+.icon-017-bank:before { content: '\e842'; } /* '' */
+.icon-016-target:before { content: '\e843'; } /* '' */
+.icon-018-gun:before { content: '\e844'; } /* '' */
+.icon-020-marijuana:before { content: '\e845'; } /* '' */
+.icon-021-justice:before { content: '\e846'; } /* '' */
+.icon-022-microscope:before { content: '\e847'; } /* '' */
+.icon-023-bullet:before { content: '\e848'; } /* '' */
+.icon-024-camera:before { content: '\e849'; } /* '' */
+.icon-026-skull:before { content: '\e84a'; } /* '' */
+.icon-027-footprint:before { content: '\e84c'; } /* '' */
+.icon-028-license:before { content: '\e84d'; } /* '' */
+.icon-029-policeman:before { content: '\e84e'; } /* '' */
+.icon-030-bomb:before { content: '\e84f'; } /* '' */
+.icon-031-detective:before { content: '\e850'; } /* '' */
+.icon-032-grave:before { content: '\e851'; } /* '' */
+.icon-033-safebox:before { content: '\e852'; } /* '' */
+.icon-034-recorder:before { content: '\e853'; } /* '' */
+.icon-035-police-car:before { content: '\e854'; } /* '' */
+.icon-036-binoculars:before { content: '\e855'; } /* '' */
+.icon-037-revolver:before { content: '\e856'; } /* '' */
+.icon-042-money-bag:before { content: '\e857'; } /* '' */
+.icon-040-walkie-talkie:before { content: '\e858'; } /* '' */
+.icon-038-poison:before { content: '\e859'; } /* '' */
+.icon-039-laptop:before { content: '\e85a'; } /* '' */
+.icon-041-bullet-proof-vest:before { content: '\e85b'; } /* '' */
+.icon-043-crime-scene:before { content: '\e85c'; } /* '' */
+.icon-044-test-tube:before { content: '\e85d'; } /* '' */
+.icon-045-pipe:before { content: '\e85e'; } /* '' */
+.icon-046-police-badge-1:before { content: '\e85f'; } /* '' */
+.icon-047-notebook:before { content: '\e860'; } /* '' */
+.icon-048-police-line:before { content: '\e861'; } /* '' */
+.icon-049-wanted:before { content: '\e862'; } /* '' */
+.icon-050-briefcase:before { content: '\e863'; } /* '' */
+.icon-002-police-hat:before { content: '\e864'; } /* '' */
+.icon-003-handcuffs:before { content: '\e865'; } /* '' */
+.icon-007-spyware:before { content: '\e866'; } /* '' */
+.icon-005-spyware:before { content: '\e867'; } /* '' */
+.icon-006-search:before { content: '\e869'; } /* '' */
+.icon-009-corruption:before { content: '\e86a'; } /* '' */
+.icon-004-police:before { content: '\e86b'; } /* '' */
+.icon-011-target:before { content: '\e86d'; } /* '' */
+.icon-012-wanted:before { content: '\e86e'; } /* '' */
+.icon-013-fingerprint:before { content: '\e86f'; } /* '' */
+.icon-014-bribe:before { content: '\e870'; } /* '' */
+.icon-016-police-line:before { content: '\e871'; } /* '' */
+.icon-015-security:before { content: '\e872'; } /* '' */
+.icon-017-malware:before { content: '\e873'; } /* '' */
+.icon-018-jail:before { content: '\e874'; } /* '' */
+.icon-019-policeman:before { content: '\e875'; } /* '' */
+.icon-020-justice-scale:before { content: '\e876'; } /* '' */
+.icon-021-poison:before { content: '\e878'; } /* '' */
+.icon-023-police-car:before { content: '\e879'; } /* '' */
+.icon-022-knife:before { content: '\e87a'; } /* '' */
+.icon-025-fingerprints:before { content: '\e87b'; } /* '' */
+.icon-026-alarm:before { content: '\e87c'; } /* '' */
+.icon-028-padlock-1:before { content: '\e87e'; } /* '' */
+.icon-029-flashlight:before { content: '\e87f'; } /* '' */
+.icon-035-skull:before { content: '\e880'; } /* '' */
+.icon-037-bank:before { content: '\e881'; } /* '' */
+.icon-034-footprint:before { content: '\e882'; } /* '' */
+.icon-032-target:before { content: '\e883'; } /* '' */
+.icon-031-gavel:before { content: '\e884'; } /* '' */
+.icon-036-police-station:before { content: '\e885'; } /* '' */
+.icon-030-prison:before { content: '\e886'; } /* '' */
+.icon-040-record:before { content: '\e888'; } /* '' */
+.icon-038-lock:before { content: '\e889'; } /* '' */
+.icon-039-adn:before { content: '\e88a'; } /* '' */
+.icon-042-cloud:before { content: '\e88b'; } /* '' */
+.icon-044-fingerprint:before { content: '\e88d'; } /* '' */
+.icon-046-police-badge:before { content: '\e88f'; } /* '' */
+.icon-043-spy:before { content: '\e890'; } /* '' */
+.icon-001-spy:before { content: '\e891'; } /* '' */
+.icon-048-alarm:before { content: '\e893'; } /* '' */
+.icon-045-cctv:before { content: '\e894'; } /* '' */
+.icon-049-laptop:before { content: '\e895'; } /* '' */
+.icon-002-envelope:before { content: '\e896'; } /* '' */
+.icon-003-chip:before { content: '\e897'; } /* '' */
+.icon-005-passport:before { content: '\e899'; } /* '' */
+.icon-007-badge:before { content: '\e89b'; } /* '' */
+.icon-008-poison:before { content: '\e89c'; } /* '' */
+.icon-009-gun-1:before { content: '\e89f'; } /* '' */
+.icon-012-diploma:before { content: '\e8a0'; } /* '' */
+.icon-014-spy-3:before { content: '\e8a3'; } /* '' */
+.icon-016-record:before { content: '\e8a4'; } /* '' */
+.icon-017-id-card:before { content: '\e8a5'; } /* '' */
+.icon-019-camera:before { content: '\e8a7'; } /* '' */
+.icon-021-pipe:before { content: '\e8a9'; } /* '' */
+.icon-022-shoe:before { content: '\e8aa'; } /* '' */
+.icon-023-flashlight:before { content: '\e8ab'; } /* '' */
+.icon-024-handcuffs:before { content: '\e8ac'; } /* '' */
+.icon-025-spying:before { content: '\e8ad'; } /* '' */
+.icon-026-folder:before { content: '\e8ae'; } /* '' */
+.icon-030-fingerprint:before { content: '\e8b2'; } /* '' */
+.icon-031-safebox:before { content: '\e8b3'; } /* '' */
+.icon-032-shield-2:before { content: '\e8b4'; } /* '' */
+.icon-033-shield-1:before { content: '\e8b5'; } /* '' */
+.icon-034-electronic-key:before { content: '\e8b6'; } /* '' */
+.icon-035-touch:before { content: '\e8b7'; } /* '' */
+.icon-036-keys:before { content: '\e8b8'; } /* '' */
+.icon-037-target:before { content: '\e8b9'; } /* '' */
+.icon-038-secure:before { content: '\e8ba'; } /* '' */
+.icon-040-security-camera:before { content: '\e8bc'; } /* '' */
+.icon-041-shield:before { content: '\e8bd'; } /* '' */
+.icon-042-eye:before { content: '\e8be'; } /* '' */
+.icon-043-keypad-1:before { content: '\e8bf'; } /* '' */
+.icon-044-keypad:before { content: '\e8c0'; } /* '' */
+.icon-046-unlock:before { content: '\e8c2'; } /* '' */
+.icon-047-lock:before { content: '\e8c3'; } /* '' */
+.icon-049-spy-1:before { content: '\e8c5'; } /* '' */
+.icon-050-spy:before { content: '\e8c6'; } /* '' */
+.icon-001-bulletproof:before { content: '\e8c7'; } /* '' */

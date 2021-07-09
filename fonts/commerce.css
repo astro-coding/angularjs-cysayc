@@ -1,0 +1,238 @@
+@font-face {
+  font-family: 'commerce';
+  src: url('../font/commerce.eot?7730230');
+  src: url('../font/commerce.eot?7730230#iefix') format('embedded-opentype'),
+       url('../font/commerce.woff2?7730230') format('woff2'),
+       url('../font/commerce.woff?7730230') format('woff'),
+       url('../font/commerce.ttf?7730230') format('truetype'),
+       url('../font/commerce.svg?7730230#commerce') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'commerce';
+    src: url('../font/commerce.svg?7730230#commerce') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "commerce";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-003-money:before { content: '\e800'; } /* '' */
+.icon-004-money:before { content: '\e801'; } /* '' */
+.icon-005-tool:before { content: '\e802'; } /* '' */
+.icon-006-money:before { content: '\e803'; } /* '' */
+.icon-008-symbol:before { content: '\e804'; } /* '' */
+.icon-007-money:before { content: '\e805'; } /* '' */
+.icon-009-logotype:before { content: '\e806'; } /* '' */
+.icon-010-symbols:before { content: '\e807'; } /* '' */
+.icon-011-money:before { content: '\e808'; } /* '' */
+.icon-012-symbols:before { content: '\e809'; } /* '' */
+.icon-013-symbol:before { content: '\e80a'; } /* '' */
+.icon-014-symbol:before { content: '\e80b'; } /* '' */
+.icon-015-money:before { content: '\e80c'; } /* '' */
+.icon-016-money:before { content: '\e80d'; } /* '' */
+.icon-017-money:before { content: '\e80e'; } /* '' */
+.icon-018-symbol:before { content: '\e80f'; } /* '' */
+.icon-019-symbols:before { content: '\e810'; } /* '' */
+.icon-020-symbols:before { content: '\e811'; } /* '' */
+.icon-021-symbol:before { content: '\e812'; } /* '' */
+.icon-022-symbol:before { content: '\e813'; } /* '' */
+.icon-023-money:before { content: '\e814'; } /* '' */
+.icon-024-money:before { content: '\e815'; } /* '' */
+.icon-025-symbols:before { content: '\e816'; } /* '' */
+.icon-026-symbol:before { content: '\e817'; } /* '' */
+.icon-027-symbols:before { content: '\e818'; } /* '' */
+.icon-034-symbols:before { content: '\e819'; } /* '' */
+.icon-032-symbol:before { content: '\e81a'; } /* '' */
+.icon-029-symbol:before { content: '\e81b'; } /* '' */
+.icon-033-tool:before { content: '\e81c'; } /* '' */
+.icon-028-symbol:before { content: '\e81d'; } /* '' */
+.icon-031-symbol:before { content: '\e81e'; } /* '' */
+.icon-030-symbols:before { content: '\e81f'; } /* '' */
+.icon-035-symbol:before { content: '\e820'; } /* '' */
+.icon-036-symbols:before { content: '\e821'; } /* '' */
+.icon-037-symbol:before { content: '\e822'; } /* '' */
+.icon-038-symbol:before { content: '\e823'; } /* '' */
+.icon-039-symbols:before { content: '\e824'; } /* '' */
+.icon-040-symbol:before { content: '\e825'; } /* '' */
+.icon-041-symbols:before { content: '\e826'; } /* '' */
+.icon-042-symbols:before { content: '\e827'; } /* '' */
+.icon-043-symbols:before { content: '\e828'; } /* '' */
+.icon-044-symbols:before { content: '\e829'; } /* '' */
+.icon-045-symbol:before { content: '\e82a'; } /* '' */
+.icon-046-symbol:before { content: '\e82b'; } /* '' */
+.icon-047-symbol:before { content: '\e82c'; } /* '' */
+.icon-048-symbol:before { content: '\e82d'; } /* '' */
+.icon-049-symbols:before { content: '\e82e'; } /* '' */
+.icon-050-symbols:before { content: '\e82f'; } /* '' */
+.icon-051-symbol:before { content: '\e830'; } /* '' */
+.icon-052-symbol:before { content: '\e831'; } /* '' */
+.icon-053-credit-card:before { content: '\e832'; } /* '' */
+.icon-054-symbols:before { content: '\e833'; } /* '' */
+.icon-055-logotype:before { content: '\e834'; } /* '' */
+.icon-056-square:before { content: '\e835'; } /* '' */
+.icon-057-symbols:before { content: '\e836'; } /* '' */
+.icon-058-card:before { content: '\e837'; } /* '' */
+.icon-059-logotype:before { content: '\e838'; } /* '' */
+.icon-060-symbol:before { content: '\e839'; } /* '' */
+.icon-061-logotype:before { content: '\e83a'; } /* '' */
+.icon-063-symbol:before { content: '\e83b'; } /* '' */
+.icon-062-symbols:before { content: '\e83c'; } /* '' */
+.icon-064-symbols:before { content: '\e83d'; } /* '' */
+.icon-065-symbols:before { content: '\e83e'; } /* '' */
+.icon-001-mastercard:before { content: '\e83f'; } /* '' */
+.icon-002-symbols:before { content: '\e840'; } /* '' */
+.icon-004-cart-1:before { content: '\e841'; } /* '' */
+.icon-005-shopping-basket-1:before { content: '\e842'; } /* '' */
+.icon-006-bag-3:before { content: '\e843'; } /* '' */
+.icon-007-bag-2:before { content: '\e844'; } /* '' */
+.icon-008-shop:before { content: '\e845'; } /* '' */
+.icon-009-box-3:before { content: '\e846'; } /* '' */
+.icon-010-discount-1:before { content: '\e847'; } /* '' */
+.icon-011-delivery-box-4:before { content: '\e848'; } /* '' */
+.icon-012-credit-card:before { content: '\e849'; } /* '' */
+.icon-014-scale:before { content: '\e84b'; } /* '' */
+.icon-015-ribbon:before { content: '\e84c'; } /* '' */
+.icon-016-cart:before { content: '\e84d'; } /* '' */
+.icon-017-basket:before { content: '\e84e'; } /* '' */
+.icon-018-bag-1:before { content: '\e84f'; } /* '' */
+.icon-019-receipt-1:before { content: '\e850'; } /* '' */
+.icon-020-receipt:before { content: '\e851'; } /* '' */
+.icon-021-qr-code:before { content: '\e852'; } /* '' */
+.icon-022-price-tag:before { content: '\e853'; } /* '' */
+.icon-023-price-cut:before { content: '\e854'; } /* '' */
+.icon-024-discount:before { content: '\e855'; } /* '' */
+.icon-027-24-hours-1:before { content: '\e857'; } /* '' */
+.icon-028-delivery-truck-1:before { content: '\e858'; } /* '' */
+.icon-026-delivery-truck-2:before { content: '\e859'; } /* '' */
+.icon-029-new-4:before { content: '\e85a'; } /* '' */
+.icon-030-new-3:before { content: '\e85b'; } /* '' */
+.icon-031-new-2:before { content: '\e85c'; } /* '' */
+.icon-032-mobile-store:before { content: '\e85d'; } /* '' */
+.icon-033-new-1:before { content: '\e85e'; } /* '' */
+.icon-034-online-shopping-1:before { content: '\e85f'; } /* '' */
+.icon-035-invoice:before { content: '\e860'; } /* '' */
+.icon-036-hand-truck:before { content: '\e861'; } /* '' */
+.icon-037-delivery:before { content: '\e862'; } /* '' */
+.icon-038-gift-card:before { content: '\e863'; } /* '' */
+.icon-039-gift:before { content: '\e864'; } /* '' */
+.icon-040-new:before { content: '\e865'; } /* '' */
+.icon-041-free-3:before { content: '\e866'; } /* '' */
+.icon-042-free-2:before { content: '\e867'; } /* '' */
+.icon-043-free-1:before { content: '\e868'; } /* '' */
+.icon-044-free:before { content: '\e869'; } /* '' */
+.icon-045-delivery-truck:before { content: '\e86a'; } /* '' */
+.icon-046-box-1:before { content: '\e86b'; } /* '' */
+.icon-047-bag:before { content: '\e86c'; } /* '' */
+.icon-048-tag-1:before { content: '\e86d'; } /* '' */
+.icon-049-dollar:before { content: '\e86e'; } /* '' */
+.icon-050-timer:before { content: '\e86f'; } /* '' */
+.icon-051-tag:before { content: '\e870'; } /* '' */
+.icon-052-coupon-1:before { content: '\e871'; } /* '' */
+.icon-053-coupon:before { content: '\e872'; } /* '' */
+.icon-054-online-shopping:before { content: '\e873'; } /* '' */
+.icon-055-delivery-box-3:before { content: '\e874'; } /* '' */
+.icon-056-delivery-box-2:before { content: '\e875'; } /* '' */
+.icon-057-delivery-box-1:before { content: '\e876'; } /* '' */
+.icon-058-delivery-box:before { content: '\e877'; } /* '' */
+.icon-059-customer-service:before { content: '\e878'; } /* '' */
+.icon-060-cash-register:before { content: '\e879'; } /* '' */
+.icon-061-call:before { content: '\e87a'; } /* '' */
+.icon-062-buy-1:before { content: '\e87b'; } /* '' */
+.icon-063-buy:before { content: '\e87c'; } /* '' */
+.icon-065-bill:before { content: '\e87e'; } /* '' */
+.icon-067-shopping-cart:before { content: '\e880'; } /* '' */
+.icon-068-shopping-basket:before { content: '\e881'; } /* '' */
+.icon-069-shopping-bag:before { content: '\e882'; } /* '' */
+.icon-070-24-hours:before { content: '\e883'; } /* '' */
+.icon-001-store-1:before { content: '\e884'; } /* '' */
+.icon-002-store:before { content: '\e885'; } /* '' */
+.icon-003-shopping-list:before { content: '\e886'; } /* '' */
+.icon-003-shopping-bag:before { content: '\e887'; } /* '' */
+.icon-004-shopping-bag:before { content: '\e888'; } /* '' */
+.icon-005-discount:before { content: '\e889'; } /* '' */
+.icon-006-barcode-scanner:before { content: '\e88a'; } /* '' */
+.icon-007-heart:before { content: '\e88b'; } /* '' */
+.icon-008-like:before { content: '\e88c'; } /* '' */
+.icon-009-star:before { content: '\e88d'; } /* '' */
+.icon-010-award:before { content: '\e88e'; } /* '' */
+.icon-011-gift:before { content: '\e88f'; } /* '' */
+.icon-012-price-tag:before { content: '\e890'; } /* '' */
+.icon-013-price-label:before { content: '\e891'; } /* '' */
+.icon-014-coin:before { content: '\e892'; } /* '' */
+.icon-015-money-bag:before { content: '\e893'; } /* '' */
+.icon-016-receipt:before { content: '\e894'; } /* '' */
+.icon-017-receipt:before { content: '\e895'; } /* '' */
+.icon-018-wallet:before { content: '\e896'; } /* '' */
+.icon-019-online-payment:before { content: '\e897'; } /* '' */
+.icon-020-credit-card:before { content: '\e898'; } /* '' */
+.icon-021-delivery-box:before { content: '\e899'; } /* '' */
+.icon-022-delivery-box:before { content: '\e89a'; } /* '' */
+.icon-023-delivery-box:before { content: '\e89b'; } /* '' */
+.icon-024-mover-truck:before { content: '\e89c'; } /* '' */
+.icon-025-fast-delivery:before { content: '\e89d'; } /* '' */
+.icon-026-fast-delivery:before { content: '\e89e'; } /* '' */
+.icon-027-pick-up-truck:before { content: '\e89f'; } /* '' */
+.icon-029-location:before { content: '\e8a0'; } /* '' */
+.icon-028-trolley:before { content: '\e8a1'; } /* '' */
+.icon-030-warehouse:before { content: '\e8a2'; } /* '' */
+.icon-031-calculator:before { content: '\e8a3'; } /* '' */
+.icon-032-invoice:before { content: '\e8a4'; } /* '' */
+.icon-033-chat:before { content: '\e8a5'; } /* '' */
+.icon-034-chat:before { content: '\e8a6'; } /* '' */
+.icon-036-banknote:before { content: '\e8a7'; } /* '' */
+.icon-035-digital-campaign:before { content: '\e8a8'; } /* '' */
+.icon-039-barcode:before { content: '\e8a9'; } /* '' */
+.icon-037-banknotes:before { content: '\e8aa'; } /* '' */
+.icon-038-banknotes:before { content: '\e8ab'; } /* '' */
+.icon-040-store:before { content: '\e8ac'; } /* '' */
+.icon-041-qr-code:before { content: '\e8ad'; } /* '' */
+.icon-042-hanger:before { content: '\e8ae'; } /* '' */
+.icon-043-search:before { content: '\e8af'; } /* '' */
+.icon-044-ticket:before { content: '\e8b0'; } /* '' */
+.icon-045-label:before { content: '\e8b1'; } /* '' */
+.icon-046-user:before { content: '\e8b2'; } /* '' */
+.icon-047-headset:before { content: '\e8b3'; } /* '' */
+.icon-048-gold-ingots:before { content: '\e8b4'; } /* '' */
+.icon-049-filter:before { content: '\e8b5'; } /* '' */
+.icon-050-shopping-basket:before { content: '\e8b6'; } /* '' */
+.icon-002-add-to-cart:before { content: '\e8b7'; } /* '' */
+.icon-001-shopping-cart:before { content: '\e8b8'; } /* '' */

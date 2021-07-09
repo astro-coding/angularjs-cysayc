@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'transportation';
+  src: url('../font/transportation.eot?7584274');
+  src: url('../font/transportation.eot?7584274#iefix') format('embedded-opentype'),
+       url('../font/transportation.woff2?7584274') format('woff2'),
+       url('../font/transportation.woff?7584274') format('woff'),
+       url('../font/transportation.ttf?7584274') format('truetype'),
+       url('../font/transportation.svg?7584274#transportation') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'transportation';
+    src: url('../font/transportation.svg?7584274#transportation') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "transportation";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-aboveground-rail:before { content: '\e800'; } /* '' */
+.icon-airfield:before { content: '\e801'; } /* '' */
+.icon-airport-1:before { content: '\e802'; } /* '' */
+.icon-bus-1:before { content: '\e803'; } /* '' */
+.icon-harbor:before { content: '\e804'; } /* '' */
+.icon-heliport:before { content: '\e805'; } /* '' */
+.icon-045-car-wash:before { content: '\e806'; } /* '' */
+.icon-fuel:before { content: '\e807'; } /* '' */
+.icon-ferry:before { content: '\e808'; } /* '' */
+.icon-belowground-rail:before { content: '\e809'; } /* '' */
+.icon-046-coffee:before { content: '\e80a'; } /* '' */
+.icon-047-cocktail:before { content: '\e80b'; } /* '' */
+.icon-050-ticket:before { content: '\e80c'; } /* '' */
+.icon-053-bed:before { content: '\e80d'; } /* '' */
+.icon-055-electric-station:before { content: '\e80e'; } /* '' */
+.icon-056-location-1:before { content: '\e80f'; } /* '' */
+.icon-057-walk:before { content: '\e810'; } /* '' */
+.icon-058-train-1:before { content: '\e811'; } /* '' */
+.icon-063-boat:before { content: '\e812'; } /* '' */
+.icon-064-bike:before { content: '\e813'; } /* '' */
+.icon-065-direction:before { content: '\e814'; } /* '' */
+.icon-066-signal:before { content: '\e815'; } /* '' */
+.icon-062-bus:before { content: '\e816'; } /* '' */
+.icon-061-car:before { content: '\e817'; } /* '' */
+.icon-002-people:before { content: '\e818'; } /* '' */
+.icon-003-tram:before { content: '\e819'; } /* '' */
+.icon-004-train-2:before { content: '\e81a'; } /* '' */
+.icon-005-traffic-light:before { content: '\e81b'; } /* '' */
+.icon-060-train:before { content: '\e81c'; } /* '' */
+.icon-007-subway:before { content: '\e81d'; } /* '' */
+.icon-059-run:before { content: '\e81e'; } /* '' */
+.icon-009-store:before { content: '\e81f'; } /* '' */
+.icon-truck:before { content: '\e820'; } /* '' */
+.icon-012-cutlery-1:before { content: '\e822'; } /* '' */
+.icon-013-review:before { content: '\e823'; } /* '' */
+.icon-london-underground:before { content: '\e825'; } /* '' */
+.icon-017-pin:before { content: '\e827'; } /* '' */
+.icon-020-target:before { content: '\e82a'; } /* '' */
+.icon-021-map:before { content: '\e82b'; } /* '' */
+.icon-022-taxi:before { content: '\e82c'; } /* '' */
+.icon-023-truck:before { content: '\e82d'; } /* '' */
+.icon-025-printer:before { content: '\e82f'; } /* '' */
+.icon-027-ticket-1:before { content: '\e831'; } /* '' */
+.icon-028-pizza:before { content: '\e832'; } /* '' */
+.icon-030-pharmacy:before { content: '\e834'; } /* '' */
+.icon-031-parking:before { content: '\e835'; } /* '' */
+.icon-033-film-strip:before { content: '\e837'; } /* '' */
+.icon-035-library:before { content: '\e839'; } /* '' */
+.icon-037-bed-1:before { content: '\e83b'; } /* '' */
+.icon-038-hospital:before { content: '\e83c'; } /* '' */
+.icon-039-cart:before { content: '\e83d'; } /* '' */
+.icon-040-gas-station:before { content: '\e83e'; } /* '' */
+.icon-042-water:before { content: '\e840'; } /* '' */
+.icon-043-cutlery:before { content: '\e841'; } /* '' */
+.icon-044-convenience-store:before { content: '\e842'; } /* '' */
+.icon-003-bicycle:before { content: '\e843'; } /* '' */
+.icon-004-boat:before { content: '\e844'; } /* '' */
+.icon-005-bus:before { content: '\e845'; } /* '' */
+.icon-007-van:before { content: '\e846'; } /* '' */
+.icon-006-cable-car-cabin:before { content: '\e847'; } /* '' */
+.icon-008-car:before { content: '\e848'; } /* '' */
+.icon-009-cargo-ship:before { content: '\e849'; } /* '' */
+.icon-011-cruise:before { content: '\e84a'; } /* '' */
+.icon-010-concrete-mixer:before { content: '\e84b'; } /* '' */
+.icon-012-drone:before { content: '\e84c'; } /* '' */
+.icon-013-dump-truck:before { content: '\e84d'; } /* '' */
+.icon-014-fire-truck:before { content: '\e84e'; } /* '' */
+.icon-015-forklift:before { content: '\e84f'; } /* '' */
+.icon-016-garbage-truck:before { content: '\e850'; } /* '' */
+.icon-017-helicopter:before { content: '\e851'; } /* '' */
+.icon-018-hovercraft:before { content: '\e852'; } /* '' */
+.icon-019-locomotive:before { content: '\e853'; } /* '' */
+.icon-020-monorail:before { content: '\e854'; } /* '' */
+.icon-021-motorcycle:before { content: '\e855'; } /* '' */
+.icon-022-tank-truck:before { content: '\e856'; } /* '' */
+.icon-023-airplane:before { content: '\e857'; } /* '' */
+.icon-024-racing:before { content: '\e858'; } /* '' */
+.icon-025-startup:before { content: '\e859'; } /* '' */
+.icon-026-scooter:before { content: '\e85a'; } /* '' */
+.icon-027-watercraft:before { content: '\e85b'; } /* '' */
+.icon-028-sailboat:before { content: '\e85c'; } /* '' */
+.icon-029-sidecar:before { content: '\e85d'; } /* '' */
+.icon-030-submarine:before { content: '\e85e'; } /* '' */
+.icon-031-taxi:before { content: '\e85f'; } /* '' */
+.icon-032-train:before { content: '\e860'; } /* '' */
+.icon-033-tram:before { content: '\e861'; } /* '' */
+.icon-034-truck:before { content: '\e862'; } /* '' */
+.icon-035-van-1:before { content: '\e863'; } /* '' */
+.icon-036-yacht:before { content: '\e864'; } /* '' */
+.icon-001-quad:before { content: '\e865'; } /* '' */
+.icon-002-hot-air-balloon:before { content: '\e866'; } /* '' */
+.icon-aeroplane-3:before { content: '\e867'; } /* '' */
+.icon-air-hostess:before { content: '\e868'; } /* '' */
+.icon-airplane-ticket:before { content: '\e869'; } /* '' */
+.icon-airplane-ticket-1:before { content: '\e86a'; } /* '' */
+.icon-airport:before { content: '\e86b'; } /* '' */
+.icon-arrival:before { content: '\e86c'; } /* '' */
+.icon-compass:before { content: '\e86d'; } /* '' */
+.icon-departures:before { content: '\e86e'; } /* '' */
+.icon-luggage:before { content: '\e86f'; } /* '' */
+.icon-luggage-1:before { content: '\e870'; } /* '' */
+.icon-luggage-2:before { content: '\e871'; } /* '' */
+.icon-luggage-3:before { content: '\e872'; } /* '' */
+.icon-parachute:before { content: '\e873'; } /* '' */
+.icon-passport:before { content: '\e874'; } /* '' */
+.icon-pilot:before { content: '\e875'; } /* '' */
+.icon-travel:before { content: '\e877'; } /* '' */
+.icon-aeroplane:before { content: '\e878'; } /* '' */
+.icon-aeroplane-1:before { content: '\e879'; } /* '' */
+.icon-aeroplane-2:before { content: '\e87a'; } /* '' */
+.icon-002-van:before { content: '\e8a0'; } /* '' */
+.icon-003-car-5:before { content: '\e8a1'; } /* '' */
+.icon-005-truck-1:before { content: '\e8a2'; } /* '' */
+.icon-004-truck-2:before { content: '\e8a3'; } /* '' */
+.icon-006-truck:before { content: '\e8a4'; } /* '' */
+.icon-007-trolleybus:before { content: '\e8a5'; } /* '' */
+.icon-008-tram:before { content: '\e8a6'; } /* '' */
+.icon-009-train-2:before { content: '\e8a7'; } /* '' */
+.icon-010-train-1:before { content: '\e8a8'; } /* '' */
+.icon-011-train:before { content: '\e8a9'; } /* '' */
+.icon-012-traffic-light-1:before { content: '\e8aa'; } /* '' */
+.icon-014-taxi:before { content: '\e8ac'; } /* '' */
+.icon-015-departures:before { content: '\e8ad'; } /* '' */
+.icon-016-car-4:before { content: '\e8ae'; } /* '' */
+.icon-017-speedometer:before { content: '\e8af'; } /* '' */
+.icon-018-ship-1:before { content: '\e8b0'; } /* '' */
+.icon-019-ship:before { content: '\e8b1'; } /* '' */
+.icon-020-sedan:before { content: '\e8b2'; } /* '' */
+.icon-021-seat-belt:before { content: '\e8b3'; } /* '' */
+.icon-022-scooter-1:before { content: '\e8b4'; } /* '' */
+.icon-023-scooter:before { content: '\e8b5'; } /* '' */
+.icon-024-school-bus:before { content: '\e8b6'; } /* '' */
+.icon-025-car-3:before { content: '\e8b7'; } /* '' */
+.icon-026-police-car:before { content: '\e8b8'; } /* '' */
+.icon-027-aeroplane-4:before { content: '\e8b9'; } /* '' */
+.icon-028-aeroplane-3:before { content: '\e8ba'; } /* '' */
+.icon-029-aeroplane-2:before { content: '\e8bb'; } /* '' */
+.icon-030-aeroplane-1:before { content: '\e8bc'; } /* '' */
+.icon-031-aeroplane:before { content: '\e8bd'; } /* '' */
+.icon-032-pick-up-truck:before { content: '\e8be'; } /* '' */
+.icon-033-motorcycle:before { content: '\e8bf'; } /* '' */
+.icon-034-delivery-truck-2:before { content: '\e8c0'; } /* '' */
+.icon-035-delivery-truck-1:before { content: '\e8c1'; } /* '' */
+.icon-036-delivery-truck:before { content: '\e8c2'; } /* '' */
+.icon-037-minibus:before { content: '\e8c3'; } /* '' */
+.icon-038-metro:before { content: '\e8c4'; } /* '' */
+.icon-041-arrivals:before { content: '\e8c7'; } /* '' */
+.icon-042-jet-plane:before { content: '\e8c8'; } /* '' */
+.icon-043-jeep:before { content: '\e8c9'; } /* '' */
+.icon-044-helicopter:before { content: '\e8ca'; } /* '' */
+.icon-045-crane:before { content: '\e8cb'; } /* '' */
+.icon-046-cargo-ship:before { content: '\e8cc'; } /* '' */
+.icon-047-car-2:before { content: '\e8cd'; } /* '' */
+.icon-048-car-wash:before { content: '\e8ce'; } /* '' */
+.icon-049-car-repair:before { content: '\e8cf'; } /* '' */
+.icon-050-gearbox-1:before { content: '\e8d0'; } /* '' */
+.icon-051-car-1:before { content: '\e8d1'; } /* '' */
+.icon-052-car:before { content: '\e8d2'; } /* '' */
+.icon-053-cable-car-cabin:before { content: '\e8d3'; } /* '' */
+.icon-054-bus-2:before { content: '\e8d4'; } /* '' */
+.icon-055-bus-1:before { content: '\e8d5'; } /* '' */
+.icon-056-bus:before { content: '\e8d6'; } /* '' */
+.icon-057-bicycle-2:before { content: '\e8d7'; } /* '' */
+.icon-059-bicycle:before { content: '\e8d9'; } /* '' */
+.icon-060-battery:before { content: '\e8da'; } /* '' */
+.icon-062-ambulance:before { content: '\e8dc'; } /* '' */
+.icon-cab:before { content: '\f1b9'; } /* '' */
+.icon-taxi:before { content: '\f1ba'; } /* '' */
+.icon-bicycle:before { content: '\f206'; } /* '' */
+.icon-bus:before { content: '\f207'; } /* '' */
+.icon-ship:before { content: '\f21a'; } /* '' */
+.icon-motorcycle:before { content: '\f21c'; } /* '' */
+.icon-train:before { content: '\f238'; } /* '' */
+.icon-subway:before { content: '\f239'; } /* '' */
+.icon-thermometer:before { content: '\f2c7'; } /* '' */
+.icon-thermometer-3:before { content: '\f2c8'; } /* '' */
+.icon-thermometer-2:before { content: '\f2c9'; } /* '' */
+.icon-thermometer-quarter:before { content: '\f2ca'; } /* '' */
+.icon-thermometer-0:before { content: '\f2cb'; } /* '' */
+.icon-snowflake-o:before { content: '\f2dc'; } /* '' */
